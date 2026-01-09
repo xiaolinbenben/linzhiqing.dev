@@ -13,7 +13,7 @@
 | 应用仓库   | 🟢 维护中 | [在线](https://yyck.beisi.tech/)          |
 | 小程序商城 | 🟢 维护中 | [在线](https://hioshop.beisi.tech/)       |
 | 公司网站   | 🟡 开发中 | [在线](https://beisi.tech/)               |
-| 企业文档   | 🟢 维护中 | [在线](https://beisi-tech.github.io/docs) |
+| 企业文档   | 🟢 更新中 | [在线](https://beisi-tech.github.io/docs) |
 
 ## GitHub 项目
 
