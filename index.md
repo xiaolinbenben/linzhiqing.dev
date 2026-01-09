@@ -21,13 +21,13 @@ title: linzhiqing.dev
 
 ## GitHub 项目
 
-| 项目                                 | 状态        | 链接                                                   |
-| ------------------------------------ | ----------- | ------------------------------------------------------ |
-| 飞书智能助手                         | 🟡 开发中   | [GitHub](https://github.com/beisi-tech/feishu-copilot) |
-| 亚马逊电商自动化（亚马逊 AI 自动化） | 🟠 准备中   | [GitHub](https://github.com/beisi-tech/amz-auto-ai)    |
-| 智能网络爬虫                         | 🟠 准备中   | [GitHub](https://github.com/xiaolinbenben/graber)      |
-| b2b 外贸站                           | 🟢 维护中   | [GitHub](https://github.com/beisi-tech/web_b2b)        |
-| 知心家教小程序                       | 🔴 失败项目 | [GitHub](https://github.com/beisi-tech/zhixin-tutor)   |
+| 项目             | 状态        | 链接                                                   |
+| ---------------- | ----------- | ------------------------------------------------------ |
+| 飞书智能助手     | 🟡 开发中   | [GitHub](https://github.com/beisi-tech/feishu-copilot) |
+| 亚马逊电商自动化 | 🟠 准备中   | [GitHub](https://github.com/beisi-tech/amz-auto-ai)    |
+| AI 网络爬虫      | 🟠 准备中   | [GitHub](https://github.com/xiaolinbenben/graber)      |
+| b2b 外贸站       | 🟢 维护中   | [GitHub](https://github.com/beisi-tech/web_b2b)        |
+| 知心家教小程序   | 🔴 失败项目 | [GitHub](https://github.com/beisi-tech/zhixin-tutor)   |
 
 ## 娱乐项目
 
