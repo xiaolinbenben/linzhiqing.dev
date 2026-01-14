@@ -2,9 +2,9 @@
 title: linzhiqing.dev
 ---
 
-# linzhiqing.dev
+# 欢迎来访
 
-欢迎来到我的个人入口页：这里可以快速联系我、了解我正在推进的项目，也欢迎你的支持与赞赏。
+这里可以快速联系我、了解我正在推进的项目，也欢迎你的支持与赞赏。
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=Noto+Serif+SC:wght@400;600&display=swap');
