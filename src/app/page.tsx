@@ -15,16 +15,14 @@ export default function HomePage() {
         <div className="grid gap-10 lg:grid-cols-[1.18fr_0.82fr] lg:items-start">
           <div className="space-y-6">
             <div className="flex items-start gap-4 sm:items-center sm:gap-5">
-              <div className="h-20 w-20 shrink-0 overflow-hidden rounded-2xl border border-slate-200 bg-slate-100 shadow-card sm:h-28 sm:w-28 dark:border-slate-700 dark:bg-slate-800">
-                <Image
-                  src="/avatar.png"
-                  alt={`${profile.name} 的头像`}
-                  width={112}
-                  height={112}
-                  className="h-full w-full object-cover"
-                  priority
-                />
-              </div>
+              <Image
+                src="/avatar.png"
+                alt={`${profile.name} 的头像`}
+                width={687}
+                height={1024}
+                className="h-auto w-20 shrink-0 sm:w-28"
+                priority
+              />
               <div className="space-y-1 sm:space-y-2">
                 <h1 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl lg:text-5xl dark:text-white">
                   {profile.name}
