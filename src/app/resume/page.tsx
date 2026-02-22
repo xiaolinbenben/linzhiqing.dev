@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { profile } from "@/data/profile";
 
 export const metadata: Metadata = {
@@ -9,22 +8,17 @@ export const metadata: Metadata = {
 
 export default function ResumePage() {
   return (
-    <article className="mx-auto max-w-4xl pb-14 pt-4">
+    <article className="w-full max-w-4xl pb-14 pt-4">
       <header className="space-y-4 pb-9">
         <h1 className="text-4xl font-bold tracking-tight text-slate-900 dark:text-white">{profile.name}</h1>
         <p className="text-base font-medium text-slate-600 dark:text-slate-300">{profile.headline}</p>
         <div className="space-y-2 text-base leading-8 text-slate-700 dark:text-slate-300">
-          <p>福州大学在读，正在创业，长期在一线推进产品从想法到可用成果的完整落地。</p>
+          <p>
+            <strong className="font-semibold text-slate-900 dark:text-white">福州大学</strong>
+            在读，正在创业，长期在一线推进产品从想法到可用成果的完整落地。
+          </p>
           <p>聚焦工程化交付与业务价值验证，擅长把复杂需求拆解为可执行路径，并持续推进迭代。</p>
           <p>当前重点围绕电商与内容效率场景，推动 AI 产品进入真实业务流程，形成可复用的工作方式。</p>
-        </div>
-        <div className="pt-1">
-          <Link
-            href="/contact"
-            className="inline-flex rounded-full border border-slate-300 px-5 py-2.5 text-sm font-semibold text-slate-700 transition hover:bg-slate-50 dark:border-slate-700 dark:text-slate-200 dark:hover:bg-slate-800"
-          >
-            联系我 →
-          </Link>
         </div>
       </header>
 
@@ -32,13 +26,13 @@ export default function ResumePage() {
         <h2 className="text-2xl font-semibold tracking-tight text-slate-900 dark:text-white">行业经验与方向</h2>
         <div className="mt-4 space-y-3 text-base leading-8 text-slate-700 dark:text-slate-300">
           <p>
-            我的经历起点是<strong className="font-semibold text-slate-900 dark:text-white">开发实践</strong>。在持续做产品落地的过程中，我与莆田的电商从业者展开长期合作，逐步深入到商品、运营、转化与效率等关键环节。
+            这些年我一直在做开发，也在持续推进各种产品实践。慢慢地，我开始把 AI 用到日常工作里，把一些重复、耗时的环节做成更顺手的流程和工具。
           </p>
           <p>
-            基于这些真实场景，我开始主导推进电商相关工具产品建设，并延展到互联网产品与 AI 方向，持续推动工具化与流程化建设，把原本依赖经验的工作方式转化为可复制、可协作、可持续优化的产品机制。
+            后来在和莆田电商团队的长期合作中，我接触到很多一线的真实问题，比如运营节奏、协作方式和效率瓶颈，也因此更明确地把方向放在“解决实际问题”上。很多想法并不是先写在计划里，而是做着做着，从需求和反馈里自然长出来的。
           </p>
           <p>
-            对我来说，<strong className="font-semibold text-slate-900 dark:text-white">AI、互联网产品、电商</strong>这三个领域不是割裂关系，而是互相促进的能力体系：电商场景提供真实问题，产品方法负责组织路径，AI 能力提升执行效率，最终共同服务于业务结果。
+            对我来说，开发是把东西做出来的能力，AI 是把效率拉高的工具，电商场景则不断提供具体的问题与验证。现在更关注的是把经验做成别人也能用的产品和流程，让事情更清晰、更可协作，也更容易持续优化。
           </p>
         </div>
       </section>
