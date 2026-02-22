@@ -195,9 +195,9 @@ export const projectGroups: Record<ProjectCategoryId, ProjectItem[]> = {
 
 export const profile = {
   name: "林智清",
-  headline: "Android 开发 / 全栈 / AI 产品工程",
-  headlineOptions: ["Android 开发", "全栈工程", "AI 产品工程"],
-  seoDescription: "林智清的个人官网，聚焦 Android、全栈开发与 AI 产品工程实践。",
+  headline: "全栈开发工程师 / AI 产品研发 / 公司创始人 Founder",
+  headlineOptions: ["全栈开发工程师", "AI 产品研发", "公司创始人 Founder"],
+  seoDescription: "林智清的个人官网，聚焦全栈开发、AI 产品研发与创业实践。",
   bio: [
     "我是一名偏工程落地的开发者，长期在 Android、Web 全栈和 AI 产品化之间做连接。",
     "日常工作聚焦需求拆解、架构设计、快速交付，以及将 AI 能力融入真实业务流程。",
@@ -236,7 +236,7 @@ export const profile = {
     overview: {
       location: "中国 / 可远程",
       years: "TODO: 补充你的工作年限",
-      targetRole: "Android / 全栈 / AI 产品工程",
+      targetRole: "全栈开发工程师 / AI 产品研发 / 公司创始人 Founder",
       summary:
         "TODO: 用 2-3 句话补充你的核心优势，例如行业领域、典型规模、关键结果（如提升效率、增长指标）。"
     },

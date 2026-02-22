@@ -31,7 +31,7 @@ export default function Navbar() {
       <div className="mx-auto flex w-full max-w-6xl items-center justify-between px-4 py-3 sm:px-6">
         <Link
           href="/"
-          className="text-base font-semibold tracking-tight text-slate-900 dark:text-white"
+          className="text-xl font-bold tracking-tight text-slate-900 dark:text-white sm:text-2xl"
           onClick={() => setOpen(false)}
         >
           linzhiqing.dev
