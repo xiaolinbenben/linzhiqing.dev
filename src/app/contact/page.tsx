@@ -9,14 +9,7 @@ export const metadata: Metadata = {
 
 export default function ContactPage() {
   return (
-    <div className="space-y-5 pb-10 pt-2">
-      <section className="section-card p-6 sm:p-8">
-        <h1 className="text-3xl font-bold tracking-tight text-slate-900 dark:text-white">联系我</h1>
-        <p className="mt-3 text-sm leading-7 text-slate-600 dark:text-slate-300">
-          页面保留原二维码联系方式与赞赏视觉风格。支持悬浮预览二维码，点击即可下载保存。
-        </p>
-      </section>
-
+    <div className="pb-10 pt-2">
       <section className={styles.hub} aria-label="联系与赞赏二维码">
         <div className={styles.header}>
           <h2 className={styles.title}>联系我 / 赞赏</h2>

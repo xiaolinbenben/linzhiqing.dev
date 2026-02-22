@@ -45,12 +45,6 @@ export default function HomePage() {
               >
                 查看项目
               </Link>
-              <Link
-                href="/contact"
-                className="rounded-full px-5 py-2.5 text-sm font-medium text-sky-700 underline-offset-4 transition hover:text-sky-800 hover:underline dark:text-sky-300 dark:hover:text-sky-200"
-              >
-                联系我 →
-              </Link>
             </div>
           </div>
 
