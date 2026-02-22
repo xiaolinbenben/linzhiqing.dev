@@ -103,7 +103,7 @@ export default function ResumePage() {
         <h2 className="text-2xl font-semibold tracking-tight text-slate-900 dark:text-white">实践、竞赛与领导力</h2>
         <div className="mt-4 space-y-3 text-base leading-8 text-slate-700 dark:text-slate-300">
           <p>
-            在全国大学生乡村设计竞赛中，与<strong className="font-semibold text-slate-900 dark:text-white">清华大学</strong>学生组成跨校团队，
+            在首届全国大学生乡村设计竞赛中，与<strong className="font-semibold text-slate-900 dark:text-white">清华大学</strong>学生组成跨校团队，
             担任<strong className="font-semibold text-slate-900 dark:text-white">团队负责人</strong>，获得
             <strong className="font-semibold text-slate-900 dark:text-white">全国三等奖</strong>。过程中重点承担组织推进、团队协同与落地统筹工作。
           </p>
