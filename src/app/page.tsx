@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { profile } from "@/data/profile";
 
@@ -13,14 +14,28 @@ export default function HomePage() {
       <section className="section-card animate-fade-up overflow-hidden p-7 sm:p-10">
         <div className="grid gap-8 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
           <div className="space-y-5">
-            <p className="inline-flex rounded-full border border-sky-200 bg-sky-50 px-3 py-1 text-xs font-semibold tracking-wide text-sky-700 dark:border-sky-800 dark:bg-sky-950/40 dark:text-sky-300">
-              欢迎来访
-            </p>
-            <div className="space-y-3">
-              <h1 className="text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl dark:text-white">
-                {profile.name}
-              </h1>
-              <p className="text-lg text-slate-600 dark:text-slate-300">{profile.headline}</p>
+            <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
+              <div className="relative h-24 w-24 overflow-hidden rounded-2xl border border-slate-200 bg-slate-100 shadow-card dark:border-slate-700 dark:bg-slate-800">
+                <Image
+                  src="/avatar.jpg"
+                  alt={`${profile.name} 的头像`}
+                  fill
+                  sizes="96px"
+                  className="object-cover"
+                  priority
+                />
+              </div>
+              <div className="space-y-3">
+                <p className="inline-flex rounded-full border border-sky-200 bg-sky-50 px-3 py-1 text-xs font-semibold tracking-wide text-sky-700 dark:border-sky-800 dark:bg-sky-950/40 dark:text-sky-300">
+                  欢迎来访
+                </p>
+                <div className="space-y-2">
+                  <h1 className="text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl dark:text-white">
+                    {profile.name}
+                  </h1>
+                  <p className="text-lg text-slate-600 dark:text-slate-300">{profile.headline}</p>
+                </div>
+              </div>
             </div>
             <div className="flex flex-wrap gap-3">
               <Link
