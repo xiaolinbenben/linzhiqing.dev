@@ -3,7 +3,7 @@ import Link from "next/link";
 import { profile } from "@/data/profile";
 
 export const metadata: Metadata = {
-  title: "Resume",
+  title: "简历",
   description: "林智清的一页式简历，包含核心技能、代表项目、经历与联系方式。"
 };
 

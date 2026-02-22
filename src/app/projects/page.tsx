@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import ProjectsBoard from "@/components/ProjectsBoard";
 
 export const metadata: Metadata = {
-  title: "Projects",
+  title: "项目",
   description: "在线产品、GitHub、娱乐项目与指南合集，支持分类筛选查看。"
 };
 

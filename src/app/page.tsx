@@ -4,7 +4,7 @@ import Link from "next/link";
 import { profile } from "@/data/profile";
 
 export const metadata: Metadata = {
-  title: "Home",
+  title: "首页",
   description: "林智清个人官网首页，含个人定位、代表项目与简历入口。"
 };
 
@@ -55,7 +55,7 @@ export default function HomePage() {
           </div>
 
           <div className="section-card space-y-3 p-5 sm:p-6">
-            <h2 className="text-base font-semibold text-slate-900 dark:text-white">About</h2>
+            <h2 className="text-base font-semibold text-slate-900 dark:text-white">关于我</h2>
             <div className="space-y-2 text-sm leading-7 text-slate-600 dark:text-slate-300">
               {profile.bio.map((line) => (
                 <p key={line}>{line}</p>

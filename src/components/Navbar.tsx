@@ -5,10 +5,10 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 
 const navItems = [
-  { href: "/", label: "Home" },
-  { href: "/resume", label: "Resume" },
-  { href: "/projects", label: "Projects" },
-  { href: "/contact", label: "Contact" }
+  { href: "/", label: "首页" },
+  { href: "/resume", label: "简历" },
+  { href: "/projects", label: "项目" },
+  { href: "/contact", label: "联系" }
 ];
 
 export default function Navbar() {
@@ -41,13 +41,13 @@ export default function Navbar() {
           type="button"
           className="inline-flex rounded-lg border border-slate-200 px-3 py-2 text-sm font-medium text-slate-700 md:hidden dark:border-slate-700 dark:text-slate-200"
           aria-expanded={open}
-          aria-label="Toggle navigation menu"
+          aria-label="切换导航菜单"
           onClick={() => setOpen((prev) => !prev)}
         >
-          Menu
+          菜单
         </button>
 
-        <nav className="hidden items-center gap-2 md:flex" aria-label="Main">
+        <nav className="hidden items-center gap-2 md:flex" aria-label="主导航">
           {navItems.map((item) => (
             <Link key={item.href} href={item.href} className={linkClass(item.href)}>
               {item.label}
@@ -59,7 +59,7 @@ export default function Navbar() {
       {open ? (
         <nav
           className="border-t border-slate-200 px-4 py-3 md:hidden dark:border-slate-800"
-          aria-label="Mobile Main"
+          aria-label="移动端主导航"
         >
           <div className="flex flex-col gap-2">
             {navItems.map((item) => (

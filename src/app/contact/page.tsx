@@ -3,7 +3,7 @@ import { contactQrGroups } from "@/data/profile";
 import styles from "./contact.module.css";
 
 export const metadata: Metadata = {
-  title: "Contact",
+  title: "联系",
   description: "联系方式与赞赏二维码，支持悬浮预览与点击下载。"
 };
 

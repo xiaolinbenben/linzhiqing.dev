@@ -61,7 +61,7 @@ export interface ContactQrGroup {
 
 export const projectCategories: ProjectCategory[] = [
   { id: "online", label: "在线产品" },
-  { id: "github", label: "GitHub" },
+  { id: "github", label: "代码仓库" },
   { id: "fun", label: "娱乐项目" },
   { id: "guides", label: "指南合集" }
 ];
@@ -200,11 +200,11 @@ export const profile = {
   seoDescription: "林智清的个人官网，聚焦全栈开发、AI 产品研发与创业实践。",
   bio: [
     "福州大学在读，正在创业中的工程型开发者，长期连接 Android、Web 全栈与 AI 产品化。",
-    "专注需求拆解、架构设计与快速交付，把 AI 能力真正落地到业务流程中。目前主要推进多模态工作流与企业协同类产品，关注可维护、可演进与可规模化的系统。"
+    "专注需求拆解、架构设计与快速交付，把 AI 能力真正落地到业务流程中。"
   ],
   contactLinks: [
     { label: "联系我", url: "/contact" },
-    { label: "GitHub", url: "https://github.com/xiaolinbenben" },
+    { label: "GitHub 主页", url: "https://github.com/xiaolinbenben" },
     { label: "企业文档", url: "https://beisi-tech.github.io/docs" }
   ],
   featuredProjects: [
@@ -213,21 +213,21 @@ export const profile = {
       status: "🟡 开发中",
       summary: "我创立的倍司科技官方站点，展示公司定位、服务能力与核心产品矩阵。",
       url: "https://beisi.tech/",
-      tags: ["Official Website", "Company Branding", "Founder-led Product"]
+      tags: ["官方网站", "品牌建设", "创始人主导"]
     },
     {
       title: "Visionflow",
       status: "🟡 开发中",
       summary: "面向内容与知识工作者的 AI 工作流平台，聚焦任务编排与效率提升。",
       url: "https://visionflow.im",
-      tags: ["Next.js", "AI Workflow", "Product Engineering"]
+      tags: ["前端框架（Next.js）", "AI 工作流", "产品工程化"]
     },
     {
       title: "AI Box",
       status: "🟢 维护中",
       summary: "统一 AI 工具入口，整合常用能力与场景化组件，降低团队使用门槛。",
       url: "https://aibox.beisi.tech/",
-      tags: ["TypeScript", "Tooling", "Operations"]
+      tags: ["类型系统（TypeScript）", "工具整合", "运维体系"]
     }
   ],
   resume: {
