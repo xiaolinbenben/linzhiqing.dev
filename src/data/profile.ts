@@ -199,8 +199,8 @@ export const profile = {
   headlineOptions: ["倍司科技创始人", "全栈工程师", "AI 产品研发"],
   seoDescription: "林智清的个人官网，聚焦全栈开发、AI 产品研发与创业实践。",
   bio: [
-    "福州大学在读，正在创业中的工程型开发者，专注 Web 全栈技术，推动 AI 产品的工程化落地。",
-    "专注需求拆解、架构设计与快速交付，把 AI 能力真正落地到业务流程中。"
+    "福州大学在读（2026 年 6 月毕业），福州倍司网络科技有限公司创始人。大二开始自学编程，2024 年 12 月正式注册公司全职创业。",
+    "目前团队 5 人，主要精力聚焦在 Visionflow AI 工作流产品研发上，已有付费客户。"
   ],
   contactLinks: [
     { label: "联系我", url: "/contact" },
@@ -209,25 +209,25 @@ export const profile = {
   ],
   featuredProjects: [
     {
-      title: "倍司科技官网",
-      status: "🟡 开发中",
-      summary: "我创立的倍司科技官方站点，展示公司定位、服务能力与核心产品矩阵。",
-      url: "https://beisi.tech/",
-      tags: ["官方网站", "品牌建设", "创始人主导"]
+      title: "Visionflow",
+      status: "🟡 团队核心项目",
+      summary: "面向内容与电商场景的 AI 工作流产品，团队主要精力聚焦于此。通过任务编排与流程自动化，帮助团队更快完成从需求到上线的闭环。",
+      url: "https://visionflow.im",
+      tags: ["AI 工作流", "团队核心", "内容与电商"]
     },
     {
-      title: "Visionflow",
+      title: "倍司科技官网",
       status: "🟡 开发中",
-      summary: "面向内容与知识工作者的 AI 工作流平台，聚焦任务编排与效率提升。",
-      url: "https://visionflow.im",
-      tags: ["前端框架（Next.js）", "AI 工作流", "产品工程化"]
+      summary: "公司官方站点，展示倍司科技的定位、服务能力与核心产品矩阵。作为公司对外展示的重要窗口。",
+      url: "https://beisi.tech/",
+      tags: ["公司官网", "品牌展示", "产品矩阵"]
     },
     {
       title: "AI Box",
-      status: "🟢 维护中",
-      summary: "统一 AI 工具入口，整合常用能力与场景化组件，降低团队使用门槛。",
+      status: "🟢 维护期",
+      summary: "早期创业尝试，统一的 AI 工具入口。产品已发布可用，目前空余时间维护。这段经历让我积累了从 0 到 1 的完整产品经验。",
       url: "https://aibox.beisi.tech/",
-      tags: ["类型系统（TypeScript）", "工具整合", "运维体系"]
+      tags: ["早期产品", "维护期", "工具整合"]
     }
   ],
   resume: {
