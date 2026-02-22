@@ -84,7 +84,17 @@ export default function HomePage() {
               style={{ animationDelay: `${index * 80}ms` }}
             >
               <div className="space-y-2">
-                <h3 className="text-lg font-semibold text-slate-900 dark:text-white">{project.title}</h3>
+                <div className="flex items-start justify-between gap-3">
+                  <h3 className="text-lg font-semibold text-slate-900 dark:text-white">{project.title}</h3>
+                  <Link
+                    href={project.url}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="shrink-0 text-sm font-medium text-sky-700 transition hover:text-sky-800 dark:text-sky-300 dark:hover:text-sky-200"
+                  >
+                    访问项目 →
+                  </Link>
+                </div>
                 <p className="text-sm text-slate-500 dark:text-slate-400">{project.status}</p>
                 <p className="text-sm leading-6 text-slate-600 dark:text-slate-300">{project.summary}</p>
               </div>
@@ -98,14 +108,6 @@ export default function HomePage() {
                   </span>
                 ))}
               </div>
-              <Link
-                href={project.url}
-                target="_blank"
-                rel="noreferrer"
-                className="text-sm font-medium text-sky-700 transition hover:text-sky-800 dark:text-sky-300 dark:hover:text-sky-200"
-              >
-                访问项目 →
-              </Link>
             </article>
           ))}
         </div>

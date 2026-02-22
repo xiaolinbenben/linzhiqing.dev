@@ -195,8 +195,8 @@ export const projectGroups: Record<ProjectCategoryId, ProjectItem[]> = {
 
 export const profile = {
   name: "林智清",
-  headline: "全栈开发工程师 / AI 产品研发 / 倍司科技创始人",
-  headlineOptions: ["全栈开发工程师", "AI 产品研发", "倍司科技创始人"],
+  headline: "倍司科技创始人 / 全栈工程师 / AI 产品研发",
+  headlineOptions: ["倍司科技创始人", "全栈工程师", "AI 产品研发"],
   seoDescription: "林智清的个人官网，聚焦全栈开发、AI 产品研发与创业实践。",
   bio: [
     "福州大学在读，正在创业中的工程型开发者，专注 Web 全栈技术，推动 AI 产品的工程化落地。",
@@ -234,7 +234,7 @@ export const profile = {
     overview: {
       location: "中国 / 可远程",
       years: "TODO: 补充你的工作年限",
-      targetRole: "全栈开发工程师 / AI 产品研发 / 倍司科技创始人",
+      targetRole: "倍司科技创始人 / 全栈工程师 / AI 产品研发",
       summary:
         "TODO: 用 2-3 句话补充你的核心优势，例如行业领域、典型规模、关键结果（如提升效率、增长指标）。"
     },
