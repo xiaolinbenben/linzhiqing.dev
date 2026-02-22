@@ -12,15 +12,15 @@ export default function HomePage() {
   return (
     <div className="space-y-8 pb-10 pt-2">
       <section className="section-card animate-fade-up overflow-hidden p-7 sm:p-10">
-        <div className="grid gap-8 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
-          <div className="space-y-5">
-            <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
-              <div className="h-24 w-24 shrink-0 overflow-hidden rounded-2xl border border-slate-200 bg-slate-100 shadow-card dark:border-slate-700 dark:bg-slate-800">
+        <div className="grid gap-10 lg:grid-cols-[1.18fr_0.82fr] lg:items-start">
+          <div className="space-y-6">
+            <div className="flex flex-col gap-5 sm:flex-row sm:items-center">
+              <div className="h-28 w-28 shrink-0 overflow-hidden rounded-2xl border border-slate-200 bg-slate-100 shadow-card dark:border-slate-700 dark:bg-slate-800">
                 <Image
                   src="/avatar.jpg"
                   alt={`${profile.name} 的头像`}
-                  width={96}
-                  height={96}
+                  width={112}
+                  height={112}
                   className="h-full w-full object-cover"
                   priority
                 />
@@ -29,7 +29,7 @@ export default function HomePage() {
                 <h1 className="text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl dark:text-white">
                   {profile.name}
                 </h1>
-                <p className="text-lg text-slate-600 dark:text-slate-300">{profile.headline}</p>
+                <p className="text-lg text-slate-600 sm:text-xl dark:text-slate-300">{profile.headline}</p>
               </div>
             </div>
             <div className="flex flex-wrap gap-3">
@@ -54,9 +54,9 @@ export default function HomePage() {
             </div>
           </div>
 
-          <div className="section-card space-y-3 p-5 sm:p-6">
-            <h2 className="text-base font-semibold text-slate-900 dark:text-white">关于我</h2>
-            <div className="space-y-2 text-sm leading-7 text-slate-600 dark:text-slate-300">
+          <div className="space-y-4 pt-1">
+            <h2 className="text-lg font-semibold text-slate-900 dark:text-white">关于我</h2>
+            <div className="space-y-3 text-base leading-7 text-slate-600 dark:text-slate-300">
               {profile.bio.map((line) => (
                 <p key={line}>{line}</p>
               ))}
