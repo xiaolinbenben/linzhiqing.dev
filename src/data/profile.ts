@@ -109,31 +109,31 @@ export const projectGroups: Record<ProjectCategoryId, ProjectItem[]> = {
     {
       title: "飞书智能助手",
       status: "🟡 开发中",
-      links: [{ label: "GitHub", url: "https://github.com/beisi-tech/feishu-copilot" }],
+      links: [{ label: "仓库", url: "https://github.com/beisi-tech/feishu-copilot" }],
       description: "企业协同场景下的 AI Copilot。"
     },
     {
       title: "亚马逊电商自动化",
       status: "🟠 准备中",
-      links: [{ label: "GitHub", url: "https://github.com/beisi-tech/amz-auto-ai" }],
+      links: [{ label: "仓库", url: "https://github.com/beisi-tech/amz-auto-ai" }],
       description: "跨境电商运营自动化工具链。"
     },
     {
       title: "AI 网络爬虫",
       status: "🟠 准备中",
-      links: [{ label: "GitHub", url: "https://github.com/xiaolinbenben/graber" }],
+      links: [{ label: "仓库", url: "https://github.com/xiaolinbenben/graber" }],
       description: "面向数据抓取与清洗的 AI crawler 实验项目。"
     },
     {
       title: "b2b 外贸站",
       status: "🟢 维护中",
-      links: [{ label: "GitHub", url: "https://github.com/beisi-tech/web_b2b" }],
+      links: [{ label: "仓库", url: "https://github.com/beisi-tech/web_b2b" }],
       description: "B2B 外贸业务网站模板。"
     },
     {
       title: "知心家教小程序",
       status: "🔴 失败项目",
-      links: [{ label: "GitHub", url: "https://github.com/beisi-tech/zhixin-tutor" }],
+      links: [{ label: "仓库", url: "https://github.com/beisi-tech/zhixin-tutor" }],
       description: "已停止推进，用于复盘产品与交付过程。"
     }
   ],
@@ -141,7 +141,7 @@ export const projectGroups: Record<ProjectCategoryId, ProjectItem[]> = {
     {
       title: "早安邮件",
       status: "🟡 开发中",
-      links: [{ label: "GitHub", url: "https://github.com/xiaolintuanzi/love-scheduler" }],
+      links: [{ label: "仓库", url: "https://github.com/xiaolintuanzi/love-scheduler" }],
       description: "自动定时发送邮件的小工具。"
     },
     {
@@ -149,7 +149,7 @@ export const projectGroups: Record<ProjectCategoryId, ProjectItem[]> = {
       status: "✅ 已完成",
       links: [
         {
-          label: "GitHub",
+          label: "仓库",
           url: "https://github.com/xiaolinbenben/fzu-electricity-fee-spider"
         }
       ],
@@ -159,7 +159,7 @@ export const projectGroups: Record<ProjectCategoryId, ProjectItem[]> = {
       title: "10000 中国普通人名大全",
       status: "✅ 已完成",
       links: [
-        { label: "GitHub", url: "https://github.com/xiaolinbenben/10k-chinese-names" },
+        { label: "仓库", url: "https://github.com/xiaolinbenben/10k-chinese-names" },
         { label: "在线", url: "https://xiaolinbenben.github.io/10k-chinese-names/" }
       ],
       description: "人名数据集与在线检索页面。"
@@ -169,25 +169,25 @@ export const projectGroups: Record<ProjectCategoryId, ProjectItem[]> = {
     {
       title: "提示词合集",
       status: "🟢 更新中",
-      links: [{ label: "GitHub", url: "https://github.com/xiaolinbenben/awesome-prompts" }],
+      links: [{ label: "仓库", url: "https://github.com/xiaolinbenben/awesome-prompts" }],
       description: "Prompt 模板与技巧清单。"
     },
     {
       title: "cf-workers 使用指南",
       status: "🟢 更新中",
-      links: [{ label: "GitHub", url: "https://github.com/xiaolinbenben/cf-workers" }],
+      links: [{ label: "仓库", url: "https://github.com/xiaolinbenben/cf-workers" }],
       description: "Cloudflare Workers 快速入门与实践。"
     },
     {
       title: "SiteSucker 使用指南",
       status: "🟢 更新中",
-      links: [{ label: "GitHub", url: "https://github.com/xiaolinbenben/sitesucker-guide" }],
+      links: [{ label: "仓库", url: "https://github.com/xiaolinbenben/sitesucker-guide" }],
       description: "SiteSucker 工具实用文档。"
     },
     {
       title: "全栈开发者入门练习",
       status: "✅ 已完成",
-      links: [{ label: "GitHub", url: "https://github.com/beisi-tech/beisi-start" }],
+      links: [{ label: "仓库", url: "https://github.com/beisi-tech/beisi-start" }],
       description: "全栈开发练习与脚手架示例。"
     }
   ]
@@ -199,12 +199,12 @@ export const profile = {
   headlineOptions: ["全栈开发工程师", "AI 产品研发", "倍司科技创始人"],
   seoDescription: "林智清的个人官网，聚焦全栈开发、AI 产品研发与创业实践。",
   bio: [
-    "福州大学在读，正在创业中的工程型开发者，长期连接 Android、Web 全栈与 AI 产品化。",
+    "福州大学在读，正在创业中的工程型开发者，专注 Web 全栈技术，推动 AI 产品的工程化落地。",
     "专注需求拆解、架构设计与快速交付，把 AI 能力真正落地到业务流程中。"
   ],
   contactLinks: [
     { label: "联系我", url: "/contact" },
-    { label: "GitHub 主页", url: "https://github.com/xiaolinbenben" },
+    { label: "代码仓库主页", url: "https://github.com/xiaolinbenben" },
     { label: "企业文档", url: "https://beisi-tech.github.io/docs" }
   ],
   featuredProjects: [
