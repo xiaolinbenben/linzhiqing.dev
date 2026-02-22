@@ -15,13 +15,13 @@ export default function HomePage() {
         <div className="grid gap-8 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
           <div className="space-y-5">
             <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
-              <div className="relative h-24 w-24 shrink-0 overflow-hidden rounded-2xl border border-slate-200 bg-slate-100 shadow-card dark:border-slate-700 dark:bg-slate-800">
+              <div className="h-24 w-24 shrink-0 overflow-hidden rounded-2xl border border-slate-200 bg-slate-100 shadow-card dark:border-slate-700 dark:bg-slate-800">
                 <Image
                   src="/avatar.jpg"
                   alt={`${profile.name} 的头像`}
-                  fill
-                  sizes="96px"
-                  className="object-cover"
+                  width={96}
+                  height={96}
+                  className="h-full w-full object-cover"
                   priority
                 />
               </div>
