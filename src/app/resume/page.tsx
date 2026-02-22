@@ -16,11 +16,11 @@ export default function ResumePage() {
           <p>
             <strong className="font-semibold text-slate-900 dark:text-white">福州大学建筑学院在读（2026 年 6 月毕业）</strong>，
             <strong className="font-semibold text-slate-900 dark:text-white">福州倍司网络科技有限公司</strong>创始人。
-            大二开始自学编程并转向全栈开发，2024 年正式注册公司全职创业。
+            大二开始自学编程并转向全栈开发，2024 年 12 月正式注册公司全职创业。
           </p>
           <p>
             聚焦工程化交付与业务价值验证，擅长把复杂需求拆解为可执行路径，并持续推进迭代。
-            目前团队 5 人（在校生及应届生为主），已有付费客户，持续在一线推进产品从想法到可用成果的完整落地。
+            目前团队 5 人（在校生及应届生为主），已有付费客户，团队主要精力聚焦在 Visionflow AI 工作流产品研发上。
           </p>
           <p>当前重点围绕电商与内容效率场景，推动 AI 产品进入真实业务流程，形成可复用的工作方式。</p>
         </div>
@@ -37,7 +37,7 @@ export default function ResumePage() {
           </p>
           <p>
             大学期间，我同时进行着助教、家教、开发项目与创业准备等多项工作。虽然辛苦，但我始终以经验积累与实际收入为导向，选择对自己成长有价值的事情。
-            2024 年正式注册公司后，全力投入创业，将所有精力聚焦在产品研发与商业落地上。
+            2024 年 12 月正式注册公司后，全力投入创业，将所有精力聚焦在产品研发与商业落地上。
           </p>
           <p>
             对我来说，开发是把东西做出来的能力，AI 是把效率拉高的工具，电商场景则不断提供具体的问题与验证。现在更关注的是把经验做成别人也能用的产品和流程，让事情更清晰、更可协作，也更容易持续优化。
@@ -53,27 +53,30 @@ export default function ResumePage() {
             <p>
               从零开始建设公司官网、文档系统和协作流程，让团队的工作方式和品牌表达保持一致。
               核心目标是把做事的经验固化下来，变成大家都能看懂、能用、能一起迭代的东西，而不是只存在某个人脑子里。
+              目前基础设施已搭建完成并投入使用。
             </p>
           </div>
 
           <div>
-            <h3 className="text-xl font-semibold text-slate-900 dark:text-white">Visionflow</h3>
+            <h3 className="text-xl font-semibold text-slate-900 dark:text-white">Visionflow（当前核心）</h3>
             <p>
-              主导推进面向内容与电商场景的 AI 工作流产品。核心目标是减少重复劳动，把内容生产、信息整理与执行环节串联成可协同的流程，帮助团队更快完成从需求到上线的闭环。
+              主导推进面向内容与电商场景的 AI 工作流产品，团队主要精力聚焦于此。核心目标是减少重复劳动，把内容生产、信息整理与执行环节串联成可协同的流程，帮助团队更快完成从需求到上线的闭环。
             </p>
           </div>
 
           <div>
-            <h3 className="text-xl font-semibold text-slate-900 dark:text-white">AI Box</h3>
+            <h3 className="text-xl font-semibold text-slate-900 dark:text-white">AI Box（维护期）</h3>
             <p>
-              构建统一的 AI 工具入口，解决工具分散、使用路径不一致、团队协作成本高的问题。通过统一入口和标准化流程，降低学习成本，提高团队整体执行效率。
+              早期创业尝试，构建统一的 AI 工具入口，解决工具分散、使用路径不一致的问题。
+              产品已发布可用，目前处于维护状态，空余时间进行功能优化。这段经历让我积累了从 0 到 1 的完整产品经验。
             </p>
           </div>
 
           <div>
-            <h3 className="text-xl font-semibold text-slate-900 dark:text-white">Terln</h3>
+            <h3 className="text-xl font-semibold text-slate-900 dark:text-white">Terln（早期验证）</h3>
             <p>
-              正在推动的电商工具产品，聚焦实际运营中的效率问题。围绕商家在日常经营中的高频动作，持续打磨可落地、可扩展的能力，目标是让业务执行更稳、更快、更可控。
+              正在探索的电商工具产品，聚焦实际运营中的效率问题。围绕商家在日常经营中的高频动作，持续打磨可落地、可扩展的能力，目标是让业务执行更稳、更快、更可控。
+              当前处于早期验证阶段。
             </p>
           </div>
         </div>
@@ -86,7 +89,7 @@ export default function ResumePage() {
             虽然就读于建筑学院，但我在<strong className="font-semibold text-slate-900 dark:text-white">大二时开始自学编程</strong>，对软件开发和技术产品产生浓厚兴趣，逐步转向全栈工程师方向发展。
           </p>
           <p>
-            2022-2024 年在福州大学建筑学院 <strong className="font-semibold text-slate-900 dark:text-white">BIM 实验室</strong>担任教授助教，持续学习并实践
+            2022-2023 年在福州大学建筑学院 <strong className="font-semibold text-slate-900 dark:text-white">BIM 实验室</strong>担任教授助教，持续学习并实践
             <strong className="font-semibold text-slate-900 dark:text-white"> BIM 参数化设计与建模</strong>。
             这段经历让我理解了代码与实际应用的结合，也为转向软件开发提供了重要契机。
           </p>
