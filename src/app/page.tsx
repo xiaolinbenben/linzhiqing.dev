@@ -17,7 +17,7 @@ export default function HomePage() {
             <div className="flex flex-col gap-5 sm:flex-row sm:items-center">
               <div className="h-28 w-28 shrink-0 overflow-hidden rounded-2xl border border-slate-200 bg-slate-100 shadow-card dark:border-slate-700 dark:bg-slate-800">
                 <Image
-                  src="/avatar.jpg"
+                  src="/avatar.png"
                   alt={`${profile.name} 的头像`}
                   width={112}
                   height={112}
