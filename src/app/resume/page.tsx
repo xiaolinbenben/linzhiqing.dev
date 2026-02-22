@@ -16,7 +16,7 @@ export default function ResumePage() {
           <p>
             <strong className="font-semibold text-slate-900 dark:text-white">福州大学建筑学院在读（2026 年 6 月毕业）</strong>，
             <strong className="font-semibold text-slate-900 dark:text-white">福州倍司网络科技有限公司</strong>创始人。
-            大二开始自学编程并转向全栈开发，2024 年末正式注册公司全职创业。
+            大二开始自学编程并转向全栈开发，2024 年正式注册公司全职创业。
           </p>
           <p>
             聚焦工程化交付与业务价值验证，擅长把复杂需求拆解为可执行路径，并持续推进迭代。
@@ -37,7 +37,7 @@ export default function ResumePage() {
           </p>
           <p>
             大学期间，我同时进行着助教、家教、开发项目与创业准备等多项工作。虽然辛苦，但我始终以经验积累与实际收入为导向，选择对自己成长有价值的事情。
-            2024 年末正式注册公司后，全力投入创业，将所有精力聚焦在产品研发与商业落地上。
+            2024 年正式注册公司后，全力投入创业，将所有精力聚焦在产品研发与商业落地上。
           </p>
           <p>
             对我来说，开发是把东西做出来的能力，AI 是把效率拉高的工具，电商场景则不断提供具体的问题与验证。现在更关注的是把经验做成别人也能用的产品和流程，让事情更清晰、更可协作，也更容易持续优化。
@@ -49,16 +49,17 @@ export default function ResumePage() {
         <h2 className="text-2xl font-semibold tracking-tight text-slate-900 dark:text-white">核心项目与创业实践</h2>
         <div className="mt-5 space-y-7 text-base leading-8 text-slate-700 dark:text-slate-300">
           <div>
-            <h3 className="text-xl font-semibold text-slate-900 dark:text-white">Visionflow</h3>
+            <h3 className="text-xl font-semibold text-slate-900 dark:text-white">公司基础体系搭建</h3>
             <p>
-              主导推进面向内容与电商场景的 AI 工作流产品。核心目标是减少重复劳动，把内容生产、信息整理与执行环节串联成可协同的流程，帮助团队更快完成从需求到上线的闭环。
+              从零开始建设公司官网、文档系统和协作流程，让团队的工作方式和品牌表达保持一致。
+              核心目标是把做事的经验固化下来，变成大家都能看懂、能用、能一起迭代的东西，而不是只存在某个人脑子里。
             </p>
           </div>
 
           <div>
-            <h3 className="text-xl font-semibold text-slate-900 dark:text-white">Terln</h3>
+            <h3 className="text-xl font-semibold text-slate-900 dark:text-white">Visionflow</h3>
             <p>
-              正在推动的电商工具产品，聚焦实际运营中的效率问题。围绕商家在日常经营中的高频动作，持续打磨可落地、可扩展的能力，目标是让业务执行更稳、更快、更可控。
+              主导推进面向内容与电商场景的 AI 工作流产品。核心目标是减少重复劳动，把内容生产、信息整理与执行环节串联成可协同的流程，帮助团队更快完成从需求到上线的闭环。
             </p>
           </div>
 
@@ -70,10 +71,9 @@ export default function ResumePage() {
           </div>
 
           <div>
-            <h3 className="text-xl font-semibold text-slate-900 dark:text-white">公司基础体系搭建</h3>
+            <h3 className="text-xl font-semibold text-slate-900 dark:text-white">Terln</h3>
             <p>
-              从零开始建设公司官网、文档系统和协作流程，让团队的工作方式和品牌表达保持一致。
-              核心目标是把做事的经验固化下来，变成大家都能看懂、能用、能一起迭代的东西，而不是只存在某个人脑子里。
+              正在推动的电商工具产品，聚焦实际运营中的效率问题。围绕商家在日常经营中的高频动作，持续打磨可落地、可扩展的能力，目标是让业务执行更稳、更快、更可控。
             </p>
           </div>
         </div>
@@ -103,9 +103,9 @@ export default function ResumePage() {
         <h2 className="text-2xl font-semibold tracking-tight text-slate-900 dark:text-white">实践、竞赛与领导力</h2>
         <div className="mt-4 space-y-3 text-base leading-8 text-slate-700 dark:text-slate-300">
           <p>
-            在全国大学生乡村设计竞赛中，作为<strong className="font-semibold text-slate-900 dark:text-white">带队负责人</strong>，与
-            <strong className="font-semibold text-slate-900 dark:text-white"> 清华大学</strong>团队合作并获得
-            <strong className="font-semibold text-slate-900 dark:text-white"> 全国三等奖</strong>。过程中重点承担组织推进、跨团队协同与落地统筹工作。
+            在全国大学生乡村设计竞赛中，与<strong className="font-semibold text-slate-900 dark:text-white">清华大学</strong>学生组成跨校团队，
+            担任<strong className="font-semibold text-slate-900 dark:text-white">团队负责人</strong>，获得
+            <strong className="font-semibold text-slate-900 dark:text-white">全国三等奖</strong>。过程中重点承担组织推进、团队协同与落地统筹工作。
           </p>
           <p>
             此外还参与过多项竞赛与实践项目，持续锻炼了在不确定环境下整合资源、推进共识和按结果交付的能力。
