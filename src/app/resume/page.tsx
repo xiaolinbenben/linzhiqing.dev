@@ -32,13 +32,13 @@ export default function ResumePage() {
         <h2 className="text-2xl font-semibold tracking-tight text-slate-900 dark:text-white">行业经验与方向</h2>
         <div className="mt-4 space-y-3 text-base leading-8 text-slate-700 dark:text-slate-300">
           <p>
-            我的实践主要覆盖 AI、互联网产品与电商三个方向。早期在莆田从事电商相关工作，长期接触商品、运营、转化与效率问题，对业务链路中的关键环节有真实理解。
+            我的经历起点是<strong className="font-semibold text-slate-900 dark:text-white">开发实践</strong>。在持续做产品落地的过程中，我与莆田的电商从业者展开长期合作，逐步深入到商品、运营、转化与效率等关键环节。
           </p>
           <p>
-            随后进入互联网产品与 AI 场景，持续推动工具化与流程化建设，把原本依赖经验的工作方式转化为可复制、可协作、可持续优化的产品机制。
+            基于这些真实场景，我开始主导推进电商相关工具产品建设，并延展到互联网产品与 AI 方向，持续推动工具化与流程化建设，把原本依赖经验的工作方式转化为可复制、可协作、可持续优化的产品机制。
           </p>
           <p>
-            这种跨行业经验让我在做产品判断时，不只看功能是否能实现，更看它是否能稳定落地、是否能真正提升团队效率与业务产出。
+            对我来说，<strong className="font-semibold text-slate-900 dark:text-white">AI、互联网产品、电商</strong>这三个领域不是割裂关系，而是互相促进的能力体系：电商场景提供真实问题，产品方法负责组织路径，AI 能力提升执行效率，最终共同服务于业务结果。
           </p>
         </div>
       </section>
@@ -80,7 +80,8 @@ export default function ResumePage() {
         <h2 className="text-2xl font-semibold tracking-tight text-slate-900 dark:text-white">研究与工程思维来源</h2>
         <div className="mt-4 space-y-3 text-base leading-8 text-slate-700 dark:text-slate-300">
           <p>
-            在福州大学建筑学院 BIM 实验室担任教授助教两年，持续学习并实践计算机参数化设计与建模。
+            在福州大学建筑学院 <strong className="font-semibold text-slate-900 dark:text-white">BIM 实验室</strong>担任教授助教两年，持续学习并实践
+            <strong className="font-semibold text-slate-900 dark:text-white"> BIM 参数化设计与建模</strong>。
           </p>
           <p>
             这段经历帮助我形成了流程化、结构化、可计算的思维方式：面对复杂问题时，先抽象结构，再拆解路径，最后建立稳定可执行的流程。
@@ -95,7 +96,9 @@ export default function ResumePage() {
         <h2 className="text-2xl font-semibold tracking-tight text-slate-900 dark:text-white">实践、竞赛与领导力</h2>
         <div className="mt-4 space-y-3 text-base leading-8 text-slate-700 dark:text-slate-300">
           <p>
-            在全国大学生乡村设计竞赛中，作为带队负责人，与清华大学团队合作并获得全国三等奖。过程中重点承担组织推进、跨团队协同与落地统筹工作。
+            在全国大学生乡村设计竞赛中，作为<strong className="font-semibold text-slate-900 dark:text-white">带队负责人</strong>，与
+            <strong className="font-semibold text-slate-900 dark:text-white"> 清华大学</strong>团队合作并获得
+            <strong className="font-semibold text-slate-900 dark:text-white"> 全国三等奖</strong>。过程中重点承担组织推进、跨团队协同与落地统筹工作。
           </p>
           <p>
             此外还参与过多项竞赛与实践项目，持续锻炼了在不确定环境下整合资源、推进共识和按结果交付的能力。
