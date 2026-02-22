@@ -18,8 +18,8 @@ export default function HomePage() {
               <Image
                 src="/avatar.png"
                 alt={`${profile.name} 的头像`}
-                width={687}
-                height={1024}
+                width={660}
+                height={880}
                 className="h-auto w-20 shrink-0 sm:w-28"
                 priority
               />
