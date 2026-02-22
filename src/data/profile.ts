@@ -195,8 +195,8 @@ export const projectGroups: Record<ProjectCategoryId, ProjectItem[]> = {
 
 export const profile = {
   name: "林智清",
-  headline: "全栈开发工程师 / AI 产品研发 / 公司创始人 Founder",
-  headlineOptions: ["全栈开发工程师", "AI 产品研发", "公司创始人 Founder"],
+  headline: "全栈开发工程师 / AI 产品研发 / 倍司科技创始人",
+  headlineOptions: ["全栈开发工程师", "AI 产品研发", "倍司科技创始人"],
   seoDescription: "林智清的个人官网，聚焦全栈开发、AI 产品研发与创业实践。",
   bio: [
     "我是一名偏工程落地的开发者，长期在 Android、Web 全栈和 AI 产品化之间做连接。",
@@ -211,6 +211,13 @@ export const profile = {
   ],
   featuredProjects: [
     {
+      title: "倍司科技官网",
+      status: "🟡 开发中",
+      summary: "我创立的倍司科技官方站点，展示公司定位、服务能力与核心产品矩阵。",
+      url: "https://beisi.tech/",
+      tags: ["Official Website", "Company Branding", "Founder-led Product"]
+    },
+    {
       title: "Visionflow",
       status: "🟡 开发中",
       summary: "面向内容与知识工作者的 AI 工作流平台，聚焦任务编排与效率提升。",
@@ -223,20 +230,13 @@ export const profile = {
       summary: "统一 AI 工具入口，整合常用能力与场景化组件，降低团队使用门槛。",
       url: "https://aibox.beisi.tech/",
       tags: ["TypeScript", "Tooling", "Operations"]
-    },
-    {
-      title: "企业文档",
-      status: "🟢 更新中",
-      summary: "企业知识库与工程文档体系，沉淀流程规范、开发指南与最佳实践。",
-      url: "https://beisi-tech.github.io/docs",
-      tags: ["Docs", "Knowledge Base", "Engineering Process"]
     }
   ],
   resume: {
     overview: {
       location: "中国 / 可远程",
       years: "TODO: 补充你的工作年限",
-      targetRole: "全栈开发工程师 / AI 产品研发 / 公司创始人 Founder",
+      targetRole: "全栈开发工程师 / AI 产品研发 / 倍司科技创始人",
       summary:
         "TODO: 用 2-3 句话补充你的核心优势，例如行业领域、典型规模、关键结果（如提升效率、增长指标）。"
     },
