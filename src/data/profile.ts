@@ -110,7 +110,7 @@ export const projectGroups: Record<ProjectCategoryId, ProjectItem[]> = {
       title: "飞书智能助手",
       status: "🟡 开发中",
       links: [{ label: "仓库", url: "https://github.com/beisi-tech/feishu-copilot" }],
-      description: "企业协同场景下的 AI Copilot。"
+      description: "企业协同场景下的智能协同助手。"
     },
     {
       title: "亚马逊电商自动化",
@@ -122,13 +122,13 @@ export const projectGroups: Record<ProjectCategoryId, ProjectItem[]> = {
       title: "AI 网络爬虫",
       status: "🟠 准备中",
       links: [{ label: "仓库", url: "https://github.com/xiaolinbenben/graber" }],
-      description: "面向数据抓取与清洗的 AI crawler 实验项目。"
+      description: "面向数据抓取与清洗的智能爬虫实验项目。"
     },
     {
       title: "b2b 外贸站",
       status: "🟢 维护中",
       links: [{ label: "仓库", url: "https://github.com/beisi-tech/web_b2b" }],
-      description: "B2B 外贸业务网站模板。"
+      description: "外贸业务网站模板。"
     },
     {
       title: "知心家教小程序",
@@ -170,7 +170,7 @@ export const projectGroups: Record<ProjectCategoryId, ProjectItem[]> = {
       title: "提示词合集",
       status: "🟢 更新中",
       links: [{ label: "仓库", url: "https://github.com/xiaolinbenben/awesome-prompts" }],
-      description: "Prompt 模板与技巧清单。"
+      description: "提示词模板与技巧清单。"
     },
     {
       title: "cf-workers 使用指南",
