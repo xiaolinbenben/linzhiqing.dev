@@ -10,12 +10,12 @@ export const metadata: Metadata = {
 
 export default function HomePage() {
   return (
-    <div className="space-y-8 pb-10 pt-2">
+    <div className="flex min-h-[calc(100vh-8rem)] flex-col justify-center space-y-8 pb-10 pt-2">
       <section className="section-card animate-fade-up overflow-hidden p-7 sm:p-10">
         <div className="grid gap-10 lg:grid-cols-[1.18fr_0.82fr] lg:items-start">
           <div className="space-y-6">
-            <div className="flex flex-col gap-5 sm:flex-row sm:items-center">
-              <div className="h-28 w-28 shrink-0 overflow-hidden rounded-2xl border border-slate-200 bg-slate-100 shadow-card dark:border-slate-700 dark:bg-slate-800">
+            <div className="flex items-start gap-4 sm:items-center sm:gap-5">
+              <div className="h-20 w-20 shrink-0 overflow-hidden rounded-2xl border border-slate-200 bg-slate-100 shadow-card sm:h-28 sm:w-28 dark:border-slate-700 dark:bg-slate-800">
                 <Image
                   src="/avatar.png"
                   alt={`${profile.name} 的头像`}
@@ -25,11 +25,11 @@ export default function HomePage() {
                   priority
                 />
               </div>
-              <div className="space-y-2">
-                <h1 className="text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl dark:text-white">
+              <div className="space-y-1 sm:space-y-2">
+                <h1 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl lg:text-5xl dark:text-white">
                   {profile.name}
                 </h1>
-                <p className="text-lg text-slate-600 sm:text-xl dark:text-slate-300">{profile.headline}</p>
+                <p className="text-base text-slate-600 sm:text-lg lg:text-xl dark:text-slate-300">{profile.headline}</p>
               </div>
             </div>
             <div className="flex flex-wrap gap-3">
