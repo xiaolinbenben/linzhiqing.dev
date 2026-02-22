@@ -1,43 +1,56 @@
 # linzhiqing.dev
 
-林智清开发项目清单
+简历型个人官网（Next.js 15 App Router + TypeScript + Tailwind CSS）。
 
-状态说明：🟡 开发中 · 🟢 维护中/更新中 · 🟠 准备中 · ✅ 已完成 · 🔴 失败项目
+## 技术栈
 
-## 在线产品 / 网站
+- Next.js 15 (App Router)
+- TypeScript
+- Tailwind CSS
+- 数据驱动内容：`src/data/profile.ts`
 
-| 项目       | 状态      | 链接                                      |
-| ---------- | --------- | ----------------------------------------- |
-| Visionflow | 🟡 开发中 | [在线](https://visionflow.im)             |
-| AI Box     | 🟢 维护中 | [在线](https://aibox.beisi.tech/)         |
-| 应用仓库   | 🟢 维护中 | [在线](https://yyck.beisi.tech/)          |
-| 小程序商城 | 🟢 维护中 | [在线](https://hioshop.beisi.tech/)       |
-| 公司网站   | 🟡 开发中 | [在线](https://beisi.tech/)               |
-| 企业文档   | 🟢 更新中 | [在线](https://beisi-tech.github.io/docs) |
+## 本地开发
 
-## GitHub 项目
+```bash
+npm install
+npm run dev
+```
 
-| 项目             | 状态        | 链接                                                   |
-| ---------------- | ----------- | ------------------------------------------------------ |
-| 飞书智能助手     | 🟡 开发中   | [GitHub](https://github.com/beisi-tech/feishu-copilot) |
-| 亚马逊电商自动化 | 🟠 准备中   | [GitHub](https://github.com/beisi-tech/amz-auto-ai)    |
-| AI 网络爬虫      | 🟠 准备中   | [GitHub](https://github.com/xiaolinbenben/graber)      |
-| b2b 外贸站       | 🟢 维护中   | [GitHub](https://github.com/beisi-tech/web_b2b)        |
-| 知心家教小程序   | 🔴 失败项目 | [GitHub](https://github.com/beisi-tech/zhixin-tutor)   |
+访问 `http://localhost:3000`。
 
-## 娱乐项目
+## 构建与运行
 
-| 项目                   | 状态      | 链接                                                                                                                      |
-| ---------------------- | --------- | ------------------------------------------------------------------------------------------------------------------------- |
-| 早安邮件               | 🟡 开发中 | [GitHub](https://github.com/xiaolintuanzi/love-scheduler)                                                                 |
-| 福州大学水电费爬虫     | ✅ 已完成 | [GitHub](https://github.com/xiaolinbenben/fzu-electricity-fee-spider)                                                     |
-| 10000 中国普通人名大全 | ✅ 已完成 | [GitHub](https://github.com/xiaolinbenben/10k-chinese-names) / [在线](https://xiaolinbenben.github.io/10k-chinese-names/) |
+```bash
+npm run build
+npm run start
+```
 
-## 指南 / 合集 / 数据
+## 页面说明
 
-| 项目                | 状态      | 链接                                                        |
-| ------------------- | --------- | ----------------------------------------------------------- |
-| 提示词合集          | 🟢 更新中 | [GitHub](https://github.com/xiaolinbenben/awesome-prompts)  |
-| cf-workers 使用指南 | 🟢 更新中 | [GitHub](https://github.com/xiaolinbenben/cf-workers)       |
-| SiteSucker 使用指南 | 🟢 更新中 | [GitHub](https://github.com/xiaolinbenben/sitesucker-guide) |
-| 全栈开发者入门练习  | ✅ 已完成 | [GitHub](https://github.com/beisi-tech/beisi-start)         |
+- `/` 首页：Hero、代表作、About、简历与项目入口
+- `/resume` 简历页：一页式信息密度，含占位模板
+- `/projects` 项目页：四类项目筛选与表格展示
+- `/contact` 联系页：原二维码视觉迁移，支持预览与下载
+
+## 数据维护
+
+- 个人资料、代表作、项目列表、简历占位内容：`src/data/profile.ts`
+- 若要补充真实信息，按 `TODO` 注释修改。
+
+## 静态资源
+
+二维码图片统一放在 `public/qr_code/` 目录。
+
+## 部署
+
+### Vercel
+
+1. 导入仓库
+2. Framework 选择 Next.js
+3. 默认构建命令 `npm run build`
+
+### Cloudflare Pages
+
+1. 导入仓库并使用 Next.js 构建模式
+2. 构建命令 `npm run build`
+3. 输出目录按平台向导自动识别（如需要可接入 OpenNext 适配）

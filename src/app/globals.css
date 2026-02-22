@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --page-bg: #f7f8fb;
+  --paper: #ffffff;
+  --ink: #0f172a;
+  --muted: #475569;
+  --line: #dbe2ea;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --page-bg: #020617;
+    --paper: #0b1220;
+    --ink: #e2e8f0;
+    --muted: #a1acc0;
+    --line: #1e293b;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family: "IBM Plex Sans", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at 12% 10%, rgba(59, 130, 246, 0.1), transparent 36%),
+    radial-gradient(circle at 88% 5%, rgba(14, 165, 233, 0.1), transparent 32%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.88), rgba(247, 248, 251, 0.96)),
+    var(--page-bg);
+  background-attachment: fixed;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background:
+      radial-gradient(circle at 12% 10%, rgba(56, 189, 248, 0.2), transparent 40%),
+      radial-gradient(circle at 88% 5%, rgba(16, 185, 129, 0.18), transparent 32%),
+      linear-gradient(180deg, rgba(2, 6, 23, 0.85), rgba(2, 6, 23, 1)),
+      var(--page-bg);
+  }
+}
+
+a {
+  color: inherit;
+}
+
+.container-page {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 72rem;
+  padding: 1.25rem;
+}
+
+.section-card {
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  background: var(--paper);
+  box-shadow: 0 14px 36px -24px rgba(15, 23, 42, 0.3);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
