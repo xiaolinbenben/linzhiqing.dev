@@ -14,7 +14,7 @@ export default function ResumePage() {
         <p className="text-base font-medium text-slate-600 dark:text-slate-300">{profile.headline}</p>
         <div className="space-y-2 text-base leading-8 text-slate-700 dark:text-slate-300">
           <p>
-            <strong className="font-semibold text-slate-900 dark:text-white">福州大学建筑学院在读（2026 年 6 月毕业）</strong>，
+            <strong className="font-semibold text-slate-900 dark:text-white">福州大学毕业</strong>，
             <strong className="font-semibold text-slate-900 dark:text-white">福州倍司网络科技有限公司</strong>创始人。
             大二开始自学编程并转向全栈开发，2024 年 12 月正式注册公司全职创业。
           </p>
@@ -73,10 +73,18 @@ export default function ResumePage() {
           </div>
 
           <div>
-            <h3 className="text-xl font-semibold text-slate-900 dark:text-white">Terln（早期验证）</h3>
+            <h3 className="text-xl font-semibold text-slate-900 dark:text-white">ChatGPT 助手（已上线）</h3>
             <p>
-              正在探索的电商工具产品，聚焦实际运营中的效率问题。围绕商家在日常经营中的高频动作，持续打磨可落地、可扩展的能力，目标是让业务执行更稳、更快、更可控。
-              当前处于早期验证阶段。
+              面向中文用户打造的 ChatGPT/Codex 桌面端管理工具，覆盖下载安装、订阅与自定义接入、工作目录、Skills 与插件管理。
+              项目重点是把原本分散、门槛较高的配置流程收拢到一个清晰的中文界面中，让用户能够更快进入桌面 AI 工作流。
+            </p>
+          </div>
+
+          <div>
+            <h3 className="text-xl font-semibold text-slate-900 dark:text-white">Terln Gateway（已上线）</h3>
+            <p>
+              作为 Terln 体系的 AI 服务网关与管理入口，支撑模型接入、API Key、调度日志、充值与账户等后台能力。
+              项目目标是把 AI 服务的接入、管理和使用状态变得更可控，为前端产品和用户订阅模式提供稳定支撑。
             </p>
           </div>
         </div>
@@ -138,7 +146,7 @@ export default function ResumePage() {
           <ul className="space-y-1">
             <li>初中：莆田南门学校</li>
             <li>高中：莆田第一中学</li>
-            <li>大学：福州大学（在读）</li>
+            <li>大学：福州大学</li>
           </ul>
           <p>英语能力：通过英语四级、六级。</p>
           <p>体育经历：多年在校运动会获奖，始终保持自律与执行力。</p>

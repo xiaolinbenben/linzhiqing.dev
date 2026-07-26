@@ -75,6 +75,18 @@ export const projectGroups: Record<ProjectCategoryId, ProjectItem[]> = {
       description: "多模态 AI 工作流产品。"
     },
     {
+      title: "ChatGPT 助手",
+      status: "🟢 已上线",
+      links: [{ label: "在线", url: "https://agent.terln.cn/" }],
+      description: "面向中文用户的 ChatGPT/Codex 桌面端管理工具。"
+    },
+    {
+      title: "Terln Gateway",
+      status: "🟢 已上线",
+      links: [{ label: "在线", url: "https://api.terln.com/" }],
+      description: "AI 服务网关与管理入口，支撑模型接入、密钥、调度日志与账户能力。"
+    },
+    {
       title: "AI Box",
       status: "🟢 维护中",
       links: [{ label: "在线", url: "https://aibox.beisi.tech/" }],
@@ -94,7 +106,7 @@ export const projectGroups: Record<ProjectCategoryId, ProjectItem[]> = {
     },
     {
       title: "公司网站",
-      status: "🟡 开发中",
+      status: "🟢 已上线",
       links: [{ label: "在线", url: "https://beisi.tech/" }],
       description: "品牌官网与服务展示。"
     },
@@ -199,7 +211,7 @@ export const profile = {
   headlineOptions: ["倍司科技创始人", "全栈工程师", "AI 产品研发"],
   seoDescription: "林智清的个人官网，聚焦全栈开发、AI 产品研发与创业实践。",
   bio: [
-    "福州大学在读（2026 年 6 月毕业），福州倍司网络科技有限公司创始人。大二开始自学编程，2024 年 12 月正式注册公司全职创业。",
+    "福州大学毕业，福州倍司网络科技有限公司创始人。大二开始自学编程，2024 年 12 月正式注册公司全职创业。",
     "目前团队 5 人，主要精力聚焦在 Visionflow AI 工作流产品研发上，已有付费客户。"
   ],
   contactLinks: [
@@ -209,6 +221,13 @@ export const profile = {
   ],
   featuredProjects: [
     {
+      title: "ChatGPT 助手",
+      status: "🔥 热门项目",
+      summary: "面向中文用户的 ChatGPT/Codex 桌面端管理工具，覆盖下载安装到工作目录、Skills 与插件管理。把原本分散的配置步骤收拢到一个更易用的入口。",
+      url: "https://agent.terln.cn/",
+      tags: ["桌面 AI", "Skills 管理", "热门项目"]
+    },
+    {
       title: "Visionflow",
       status: "🟡 团队核心项目",
       summary: "面向内容与电商场景的 AI 工作流产品，团队主要精力聚焦于此。通过任务编排与流程自动化，帮助团队更快完成从需求到上线的闭环。",
@@ -217,17 +236,10 @@ export const profile = {
     },
     {
       title: "倍司科技官网",
-      status: "🟡 开发中",
+      status: "🟢 已上线",
       summary: "公司官方站点，展示倍司科技的定位、服务能力与核心产品矩阵。作为公司对外展示的重要窗口。",
       url: "https://beisi.tech/",
       tags: ["公司官网", "品牌展示", "产品矩阵"]
-    },
-    {
-      title: "AI Box",
-      status: "🟢 维护期",
-      summary: "早期创业尝试，统一的 AI 工具入口。产品已发布可用，目前空余时间维护。这段经历让我积累了从 0 到 1 的完整产品经验。",
-      url: "https://aibox.beisi.tech/",
-      tags: ["早期产品", "维护期", "工具整合"]
     }
   ],
   resume: {
