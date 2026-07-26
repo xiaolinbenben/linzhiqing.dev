@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { contactQrGroups } from "@/data/profile";
+import QrButton from "./QrButton";
 import styles from "./contact.module.css";
 
 export const metadata: Metadata = {
@@ -13,7 +14,7 @@ export default function ContactPage() {
       <section className={styles.hub} aria-label="联系与赞赏二维码">
         <div className={styles.header}>
           <h2 className={styles.title}>联系我 / 赞赏</h2>
-          <p className={styles.subtitle}>悬浮预览二维码，点击下载保存</p>
+          <p className={styles.subtitle}>悬浮或点击预览二维码，下载保存</p>
         </div>
 
         <div className={styles.grid}>
@@ -22,48 +23,18 @@ export default function ContactPage() {
               <div className={styles.groupTitle}>{group.title}</div>
 
               <div className={`${styles.buttons} ${group.more ? styles.primary : ""}`}>
-                {group.primary.map((item) => {
-                  const fileName = item.file.split("/").pop() ?? "qrcode.jpg";
-
-                  return (
-                    <a
-                      key={`${group.title}-${item.label}`}
-                      className={styles.button}
-                      href={item.file}
-                      download={fileName}
-                      title={item.title}
-                    >
-                      <span className={styles.label}>{item.label}</span>
-                      <span className={styles.hint}>{item.hint}</span>
-                      <span className={styles.download}>下载二维码</span>
-                      <img className={styles.preview} src={item.file} alt={item.alt} loading="lazy" />
-                    </a>
-                  );
-                })}
+                {group.primary.map((item) => (
+                  <QrButton key={`${group.title}-${item.label}`} item={item} />
+                ))}
               </div>
 
               {group.more ? (
                 <details className={styles.more}>
                   <summary>显示更多</summary>
                   <div className={styles.buttons}>
-                    {group.more.map((item) => {
-                      const fileName = item.file.split("/").pop() ?? "qrcode.jpg";
-
-                      return (
-                        <a
-                          key={`${group.title}-${item.label}`}
-                          className={styles.button}
-                          href={item.file}
-                          download={fileName}
-                          title={item.title}
-                        >
-                          <span className={styles.label}>{item.label}</span>
-                          <span className={styles.hint}>{item.hint}</span>
-                          <span className={styles.download}>下载二维码</span>
-                          <img className={styles.preview} src={item.file} alt={item.alt} loading="lazy" />
-                        </a>
-                      );
-                    })}
+                    {group.more.map((item) => (
+                      <QrButton key={`${group.title}-${item.label}`} item={item} />
+                    ))}
                   </div>
                 </details>
               ) : null}
