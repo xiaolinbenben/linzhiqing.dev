@@ -10,6 +10,11 @@ export const metadata: Metadata = {
     template: `%s | ${profile.name}`
   },
   description: profile.seoDescription,
+  verification: {
+    other: {
+      "msvalidate.01": "6EEE23F1569CDB8DDCB0D52CCBF3B075"
+    }
+  },
   openGraph: {
     type: "website",
     locale: "zh_CN",
